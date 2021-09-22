@@ -1,0 +1,153 @@
+﻿Country name,Region,Ladder score,Average life span
+Finland,Europe,7.81,82.48
+Denmark,Europe,7.65,81.4
+Switzerland,Europe,7.56,84.25
+Iceland,Europe,7.50,83.52
+Norway,Europe,7.49,82.94
+Netherlands,Europe,7.45,82.78
+Sweden,Europe,7.35,83.33
+New Zealand,Oceania,7.30,82.8
+Austria,Europe,7.29,82.05
+Luxembourg,Europe,7.24,82.79
+Canada,N. America,7.23,82.96
+Australia,Oceania,7.22,83.94
+United Kingdom,Europe,7.16,81.77
+Israel,Middle East,7.13,83.49
+Costa Rica,N. America,7.12,80.94
+Ireland,Europe,7.09,82.81
+Germany,Europe,7.08,81.88
+United States,N. America,6.94,79.11
+Czech Republic,Europe,6.91,79.85
+Belgium,Europe,6.86,82.17
+United Arab Emirates,Asia,6.79,78.46
+Malta,Europe,6.77,83.06
+France,Europe,6.66,83.13
+Mexico,N. America,6.47,75.41
+Taiwan,Asia,6.46,81.04
+Uruguay,S. America,6.44,78.43
+Saudi Arabia,Asia,6.41,75.69
+Spain,Europe,6.40,83.99
+Guatemala,N. America,6.40,75.05
+Italy,Europe,6.39,84.01
+Singapore,Asia,6.38,84.07
+Brazil,S. America,6.38,76.57
+Slovenia,Europe,6.36,81.85
+El Salvador,N. America,6.35,74.06
+Panama,N. America,6.30,79.1
+Slovakia,Europe,6.28,78
+Uzbekistan,Asia,6.26,72.04
+Chile,S. America,6.23,80.74
+Bahrain,Asia,6.23,77.73
+Lithuania,Europe,6.22,76.41
+Trinidad and Tobago,S. America,6.19,73.91
+Poland,Europe,6.19,79.27
+Colombia,S. America,6.16,77.87
+Cyprus,Europe,6.16,81.51
+Nicaragua,N. America,6.14,75.23
+Romania,Europe,6.12,76.5
+Kuwait,Asia,6.10,75.85
+Mauritius,Africa,6.10,75.51
+Kazakhstan,Asia,6.06,73.9
+Estonia,Europe,6.02,79.18
+Philippines,Asia,6.01,71.66
+Hungary,Europe,6.00,77.31
+Thailand,Asia,6.00,77.74
+Argentina,S. America,5.97,77.17
+Honduras,N. America,5.95,75.87
+Latvia,Europe,5.95,75.73
+Ecuador,S. America,5.93,77.71
+Portugal,Europe,5.91,82.65
+Jamaica,N. America,5.89,74.88
+South Korea,Asia,5.87,83.5
+Japan,Asia,5.87,85.03
+Peru,S. America,5.80,77.44
+Serbia,Europe,5.78,76.47
+Bolivia,S. America,5.75,72.35
+Pakistan,Asia,5.69,67.79
+Paraguay,S. America,5.69,74.59
+Dominican Republic,N. America,5.69,74.65
+Bosnia and Herzegovina,Europe,5.67,77.93
+Moldova,Europe,5.61,72.3
+Tajikistan,Asia,5.56,71.76
+Montenegro,Europe,5.55,77.39
+Russia,Europe,5.55,72.99
+Kyrgyzstan,Asia,5.54,71.95
+Belarus,Europe,5.54,75.2
+Cyprus,Europe,5.54,81.51
+Greece,Europe,5.51,82.8
+Hong Kong,Asia,5.51,85.29
+Croatia,Europe,5.50,79.02
+Libya,Africa,5.49,73.44
+Mongolia,Asia,5.46,70.53
+Malaysia,Asia,5.38,76.65
+Vietnam,Asia,5.35,75.77
+Indonesia,Asia,5.29,72.32
+Côte d'Ivoire,Africa,5.23,58.75
+Benin,Africa,5.22,62.84
+Maldives,Asia,5.20,79.89
+DR Congo,Africa,5.19,61.6
+Azerbaijan,Asia ,5.16,73.33
+North Macedonia,Europe,5.16,76.26
+Ghana,Africa,5.15,64.94
+Nepal,Asia,5.14,71.74
+Turkey,Asia,5.13,78.45
+China,Asia,5.12,77.47
+Turkmenistan,Asia,5.12,68.63
+Bulgaria,Europe,5.10,75.49
+Morocco,Africa,5.09,77.43
+Cameroon,Africa,5.08,60.32
+Venezuela,S. America,5.05,72.34
+Algeria,Africa,5.01,77.5
+Senegal,Africa,4.98,68.87
+Guinea,Africa,4.95,62.64
+Niger,Africa,4.91,63.62
+Laos,Asia,4.89,68.89
+Albania,Europe,4.88,78.96
+Cambodia,Asia,4.85,70.54
+Bangladesh,Asia,4.83,73.57
+Gabon,Africa,4.83,67.03
+South Africa,Africa,4.81,64.88
+Iraq,Asia,4.78,71.08
+Lebanon,Asia,4.77,79.27
+Burkina Faso,Africa,4.77,62.98
+Gambia,Africa,4.75,63.26
+Mali,Africa,4.73,60.54
+Nigeria,Africa,4.72,55.75
+Armenia,Asia,4.68,75.55
+Georgia,Europe,4.67,74.24
+Iran,Asia,4.67,77.33
+Jordan,Asia,4.63,75.01
+Mozambique,Africa,4.62,62.13
+Kenya,Africa,4.58,67.47
+Namibia,Africa,4.57,64.86
+Ukraine,Europe,4.56,72.5
+Liberia,Africa,4.56,65
+State of Palestine,Asia,4.55,74.62
+Uganda,Africa,4.43,64.38
+Chad,Africa,4.42,55.17
+Tunisia,Africa,4.39,77.36
+Mauritania,Africa,4.37,65.57
+Sri Lanka,Asia,4.33,77.56
+Congo,Africa,4.31,65.21
+Eswatini,Africa,4.31,61.05
+Myanmar,Asia,4.31,67.78
+Comoros,Africa,4.29,65.03
+Togo,Africa,4.19,62.13
+Ethiopia,Africa,4.19,67.81
+Madagascar,Africa,4.17,68.21
+Egypt,Africa,4.15,72.54
+Sierra Leone,Africa,3.93,55.92
+Burundi,Africa,3.78,62.71
+Zambia,Africa,3.76,64.7
+Haiti,N. America,3.72,64.99
+Lesotho,Africa,3.65,55.65
+India,Asia,3.57,70.42
+Malawi,Africa,3.54,65.62
+Yemen,Africa,3.53,66.44
+Botswana,Africa,3.48,69.86
+Tanzania,Africa,3.48,66.39
+Central African Republic,Africa,3.48,54.36
+Rwanda,Africa,3.31,70
+Zimbabwe,Africa,3.30,62.16
+South Sudan,Africa,2.82,58.74
+Afghanistan,Asia,2.57,65.98

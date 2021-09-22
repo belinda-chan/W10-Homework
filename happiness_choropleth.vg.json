@@ -1,0 +1,44 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {"text": "World Happiness Report - 2020"},
+    "width": 850,
+    "height": 400,
+    "projection": {"type": "equalEarth"},
+    "data": {
+    "url": "https://raw.githubusercontent.com/belinda-chan/Assignment2/main/Geodata.json",
+    "format": {"type": "topojson", "feature": "Geodata"}
+    },
+    "background": "#fffaf6",
+     "view": {"fill": "#F3FAF9"},
+    "transform": [
+    {
+    "lookup": "properties.name",
+    "from": {
+    "data": {
+    "url": "https://raw.githubusercontent.com/belinda-chan/Assignment2/main/World%20Happiness%20Index.csv"
+    },
+    
+    "key": "Country name",
+    "fields": ["Ladder score", "Rank"]
+    }
+    }
+    ],
+    
+    "mark": {"type": "geoshape", "stroke": "gray", "strokeWidth": 0.25},
+    "encoding": {
+     "color": {
+     
+    "condition": {"test": "datum['Ladder score'] < 1", "value": "#C4C4C4"},
+       "field": "Ladder score",
+       "type": "quantitative",
+  "sort": "ascending",
+  "scale":{"reverse":true, "range": ["#ffffe5","#fff7bc","#fee391","#fec44f","#fe9929","#ec7014","#cc4c02","#993404","#662506"]},
+       "bin":{"extent":[1,10], "step": 1}
+     },
+    "tooltip": [
+    {"field": "properties.name", "type": "nominal", "title": "Country name"},
+    {"field": "Ladder score", "type": "quantitative", "format": ".2f"},
+    {"field": "Rank", "type": "quantitative"}
+    ]
+    }
+   }

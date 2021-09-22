@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "background": "#fffaf6",
+       "view": {"fill": "#fffaf6"},
+    "width": 845,
+    "height": 400,
+    "title": "Life Expectancy and Happiness Scores 2020",
+    "data": {
+    "url": "https://raw.githubusercontent.com/belinda-chan/Week-10-Homework/main/Happiness%20Life%20Span.csv"
+    },
+    "encoding":{
+      "x": {
+    "field": "Average life span",
+    "type": "quantitative",
+    "title": "Average life span",
+    "axis": {"tickCount": 7},
+    "scale": {"domain": [50, 90]}
+    },
+    "y": {
+    "field": "Ladder score",
+    "type": "quantitative",
+    "axis": {"tickCount": 7},
+    "scale": {"domain": [0, 10]}
+    }}, 
+    "layer":[
+      {"selection": {
+    "region_highlight": {
+    "type": "multi",
+    "fields": ["Region"],
+    "bind": "legend"}
+    }, "mark": "circle",
+    "encoding": {
+      "size":{"value":200},
+       "color": {
+         "legend": {"offset": 5},
+    "field": "Region",
+    "type": "nominal",
+    "scale": {
+    "domain": [
+    "N. America",
+    "S. America",
+    "Europe",
+    "Africa",
+    "Asia",
+    "Oceania"
+    ],
+    "range": [
+   "#e41a1c",
+ "#984ea3",
+ "#ff7f00",
+ "#a6cee3",
+ "#377eb8",
+ "#a65628"
+    ]
+    }},
+    "opacity": {
+    "condition": {"selection": "region_highlight", "value": 0.3},
+    "value": 0.05
+    },
+   
+    "tooltip": [
+    {"field": "Country name", "type": "nominal"},
+    {"field": "Region", "type": "nominal"},
+    {"field": "Average life span", "type": "quantitative"},
+    {"field": "Ladder score", "type": "quantitative"}
+    ]}
+      }, {
+        "mark":{
+          "type": "text",
+    "fontSize": 10,
+    "fontStyle": "italic"},
+    "encoding": {
+    "text": {"field": "Country name", "type": "nominal"},
+    "color": {"value": "black"},
+    "opacity": {
+    "condition": {
+    "test": "datum['Country name'] == 'Japan' || datum['Country name'] == 'Finland' || datum['Country name'] == 'Switzerland' || datum['Country name'] == 'Hong Kong' || datum['Country name'] == 'Australia'|| datum['Country name'] == 'United States' || datum['Country name'] == 'Afghanistan'|| datum['Country name'] == 'South Sudan'",
+    "value": 1},
+    "value": 0
+    }
+   
+    }
+   
+      }
+    ]
+   }
